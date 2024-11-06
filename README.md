@@ -11,6 +11,7 @@ Documentation and dumps for https://loops.video API v0
         * `feed/`
           * [`for-you`](/loops.video/api/v0/client/feed/for-you.md)
         * [`onboarding`](/loops.video/api/v0/client/onboarding.md)
+        * [`report-rules`](/loops.video/api/v0/client/report-rules.md)
       * `comments/`
         * `delete/`
           * [`{{ id }}`](/loops.video/api/v0/comments/delete/{{%20id%20}}.md)
