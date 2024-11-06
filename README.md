@@ -33,6 +33,12 @@ Documentation and dumps for https://loops.video API v0
       * `upload/`
         * [`video`](/loops.video/api/v0/upload/video.md)
       * `user/`
+        * `followers/`
+          * `byId/`
+            * [`{{ id }}`](/loops.video/api/v0/user/followers/byId/{{%20id%20}}.md)
+        * `following/`
+          * `byId/`
+            * [`{{ id }}`](/loops.video/api/v0/user/following/byId/{{%20id%20}}.md)
         * `id/`
           * [`{{ id }}`](/loops.video/api/v0/user/id/{{%20id%20}}.md)
         * [`self(/)`](/loops.video/api/v0/user/self.md)
