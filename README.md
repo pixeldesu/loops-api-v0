@@ -42,6 +42,9 @@ Documentation and dumps for https://loops.video API v0
       * `upload/`
         * [`video`](/loops.video/api/v0/upload/video.md)
       * `user/`
+        * `block/`
+          `id/`
+            * [`{{ id }}`](/loops.video/api/v0/user/block/id/{{%20id%20}}.md)
         * `followers/`
           * `byId/`
             * [`{{ id }}`](/loops.video/api/v0/user/followers/byId/{{%20id%20}}.md)
@@ -53,6 +56,9 @@ Documentation and dumps for https://loops.video API v0
         * [`self(/)`](/loops.video/api/v0/user/self.md)
           * [`update-bio`](/loops.video/api/v0/user/self/update-bio.md)
           * [`update-password`](/loops.video/api/v0/user/self/update-password.md)
+        * `unblock/`
+          * `id/`
+            * [`{{ id }}`](/loops.video/api/v0/user/unblock/id/{{%20id%20}}.md)
         * `videos/`
           * [`{{ id }}`](/loops.video/api/v0/user/videos/{{%20id%20}}.md)
     * `v0.5/`
