@@ -55,6 +55,9 @@ Documentation and dumps for https://loops.video API v0
           * [`update-password`](/loops.video/api/v0/user/self/update-password.md)
         * `videos/`
           * [`{{ id }}`](/loops.video/api/v0/user/videos/{{%20id%20}}.md)
+    * `v0.5/`
+      * `search/`
+        * [`users`](/loops.video/api/v0.5/search/users.md)
   * `auth/`
     * [`start`](/loops.video/auth/start.md)
 
