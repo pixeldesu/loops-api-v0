@@ -18,6 +18,9 @@ Documentation and dumps for https://loops.video API v0
         * `id/`
           * [`{{ id }}`](/loops.video/api/v0/comments/id/{{%20id%20}}.md)
         * [`store`](/loops.video/api/v0/comments/store.md)
+      * `explore/`
+        * `trending/`
+          * [`creators`](/loops.video/api/v0/explore/trending/creators.md)
       * `follow/`
         * [`{{ id }}`](/loops.video/api/v0/follow/{{%20id%20}}.md)
       * `like/`
