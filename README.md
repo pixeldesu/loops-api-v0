@@ -43,7 +43,7 @@ Documentation and dumps for https://loops.video API v0
         * [`video`](/loops.video/api/v0/upload/video.md)
       * `user/`
         * `block/`
-          `id/`
+          * `id/`
             * [`{{ id }}`](/loops.video/api/v0/user/block/id/{{%20id%20}}.md)
         * `followers/`
           * `byId/`
