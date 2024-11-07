@@ -31,6 +31,9 @@ Documentation and dumps for https://loops.video API v0
           * [`submit`](/loops.video/api/v0/meta-app/feedback/submit.md)
       * `notifications/`
         * [`self`](/loops.video/api/v0/notifications/self.md)
+      * `report/`
+        * [`profile`](/loops.video/api/v0/report/profile.md)
+        * [`video`](/loops.video/api/v0/report/video.md)
       * `unfollow/`
         * [`{{ id }}`](/loops.video/api/v0/unfollow/{{%20id%20}}.md)
       * `unlike/`
