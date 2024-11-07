@@ -1,7 +1,7 @@
 # loops-api-v0
 
 > [!CAUTION]
-> Beware that using these endpoints without prior approval of Loops consitutes a violation of the [Terms of Service](https://loops.video/legal/terms-of-service) and might lead to legal action against you.
+> Beware that using these endpoints without prior approval of Loops constitutes a violation of the [Terms of Service](https://loops.video/legal/terms-of-service) and might lead to legal action against you.
 
 Documentation and dumps for https://loops.video API v0
 
