@@ -66,6 +66,9 @@ Documentation and dumps for https://loops.video API v0
             * [`{{ id }}`](/loops.video/api/v0/user/unblock/id/{{%20id%20}}.md)
         * `videos/`
           * [`{{ id }}`](/loops.video/api/v0/user/videos/{{%20id%20}}.md)
+      * `video/`
+        * `delete/`
+          * [`{{ id }}`](/loops.video/api/v0/video/delete/{{%20id%20}}.md)
     * `v0.5/`
       * `search/`
         * [`users`](/loops.video/api/v0.5/search/users.md)
