@@ -57,6 +57,8 @@ Documentation and dumps for https://loops.video API v0
         * `id/`
           * [`{{ id }}`](/loops.video/api/v0/user/id/{{%20id%20}}.md)
         * [`self(/)`](/loops.video/api/v0/user/self.md)
+          * [`delete-avatar`](/loops.video/api/v0/user/self/delete-avatar.md)
+          * [`update-avatar`](/loops.video/api/v0/user/self/update-avatar.md)
           * [`update-bio`](/loops.video/api/v0/user/self/update-bio.md)
           * [`update-password`](/loops.video/api/v0/user/self/update-password.md)
         * `unblock/`
