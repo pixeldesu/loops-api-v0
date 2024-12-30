@@ -1,11 +1,35 @@
-# loops-api-v0
+# unloop
 
-> [!CAUTION]
-> Beware that using these endpoints without prior approval of Loops constitutes a violation of the [Terms of Service](https://loops.video/legal/terms-of-service) and might lead to legal action against you.
+_Research and archival resources around [loops.video](https://loops.video)._
 
-Documentation and dumps for https://loops.video API v0
+## Repository Contents
 
-## Table of Contents
+* **`apk/`:** Archived versions of Android releases
+* **`disasm/`:** Disassemblies of above Android releases
+  * _In order to keep repository size small, only the `assets/` folder of the disassembly is included._ 
+* **`loops.video/`:** Documentation and dumps for https://loops.video API v0
+
+### Android Releases
+
+These are the Android release APKs served on https://loops.video (or it's CDN). The filenames are unaltered.
+
+You can always download the latest version by following this link:  
+https://loops.video/beta/app/android _(removed from the public-facing website for unknown reasons)_
+
+### Disassembly
+
+The disassembly of the Android releases is done with the two following tools:
+* [Apktool](https://apktool.org/)
+* [`hbc-file-parser`, `hbc-disassembler` and `hbc-decompiler` from hermes-dec](https://github.com/P1sec/hermes-dec)
+
+The important files of the disassembly are:
+* `assets/index.android.bundle.headers.txt` containing Hermes file format header information
+* `assets/output.hasm` containing Hermes bytecode in assembly form
+* `assets/output.js` containing pseudo-JS code assembled from Hermes bytecode
+
+**Nothing of this can be used to reassemble the Loops APK, it's only for educational purposes and ease of checking some of the functional contents!**
+
+### loops.video API v0
 
 * `loops.video/`
   * `api/`
